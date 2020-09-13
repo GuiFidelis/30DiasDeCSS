@@ -1,0 +1,61 @@
+label {
+  margin: 0 10px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+.check {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: ease-in 0.5s;
+}
+
+.check::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: #000000;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: translateX(-20px);
+}
+
+#darkmode:checked + main header .check:before {
+    transform: translateX(0px);
+  }
+
+
+.check::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: #000000;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: translateX(-20px);
+}
+
+#darkmode:checked + main header .check:after {
+  transform: translateX(0px);
+}
+
+#darkmode:checked + main {
+    --background-color: #000;
+    --navegation-color: #6f6f6f;
+  }

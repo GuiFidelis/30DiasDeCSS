@@ -1,12 +1,23 @@
 :root {
   --background-color: #fff;
-  --navegation-color: #06b17e;
+  --navegation-color: #2d57c4;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background: var(--navegation-color);
+  z-index: 10;
 }
 
 .icons {
@@ -23,10 +34,10 @@ ul {
   display: flex;
 }
 ul li {
-  margin: max(12px, 5vw);
+  margin: max(12px, 4vw);
   list-style: none;
-  width: max(20px, 9vw);
-  height: max(20px, 9vw);
+  width: max(20px, 8vw);
+  height: max(20px, 8vw);
   transform: rotate(-30deg) skew(25deg);
 }
 ul li span {
