@@ -1,6 +1,16 @@
+:root {
+  --background-color: #fff;
+  --navegation-color: #06b17e;
+}
+
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.icons {
+  background: var(--background-color);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -13,13 +23,11 @@ ul {
   display: flex;
 }
 ul li {
-  position: relative;
+  margin: max(12px, 5vw);
   list-style: none;
-  width: 60px;
-  height: 60px;
-  margin: 0 30px;
+  width: max(20px, 9vw);
+  height: max(20px, 9vw);
   transform: rotate(-30deg) skew(25deg);
-  background: #ccc;
 }
 ul li span {
   position: absolute;
@@ -33,26 +41,26 @@ ul li span {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 30px !important;
+  font-size: 0.7rem;
 }
 ul li:hover span {
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 ul li:hover span:nth-child(5) {
-  transform: translate(40px, -40px);
+  transform: translate(1.6rem, -1.6rem);
   opacity: 1;
 }
 ul li:hover span:nth-child(4) {
-  transform: translate(30px, -30px);
+  transform: translate(1.2rem, -1.2rem);
   opacity: 0.8;
 }
 ul li:hover span:nth-child(3) {
-  transform: translate(20px, -20px);
+  transform: translate(0.8rem, -0.8rem);
   opacity: 0.6;
 }
 ul li:hover span:nth-child(2) {
-  transform: translate(10px, -10px);
-  opacity: 0.4;
+  transform: translate(0.4rem, -0.4rem);
+  opacity: 0.2;
 }
 ul li:hover span:nth-child(1) {
   transform: translate(0, 0);
@@ -72,4 +80,34 @@ ul li:nth-child(4) span {
 }
 ul li:nth-child(5) span {
   background: orangered;
+}
+
+@media (min-width: 800px) {
+  ul li {
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+  }
+  ul li span {
+    font-size: 30px !important;
+  }
+  ul li:hover span {
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  ul li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+  }
+  ul li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+  }
+  ul li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+  }
+  ul li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: 0.2;
+  }
 }
