@@ -3,11 +3,16 @@
   --navegation-color: #2d57c4;
 }
 
+html{
+  background-color: var(--background-color);
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 header {
   display: flex;
@@ -23,9 +28,11 @@ header {
 .icons {
   background: var(--background-color);
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 ul {
   position: relative;
