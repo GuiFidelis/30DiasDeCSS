@@ -1,6 +1,6 @@
 :root {
   --background-color: #fff;
-  --navegation-color: #2d57c4;
+  --navegation-color: #053A6B;
 }
 
 html{
@@ -23,6 +23,7 @@ header {
   height: 30px;
   background: var(--navegation-color);
   z-index: 10;
+  filter: inherit;
 }
 
 .icons {
