@@ -56,6 +56,6 @@ input[type="checkbox"] {
 }
 
 #darkmode:checked + main {
-    --background-color: #000;
-    --navegation-color: #6f6f6f;
+    --background-color: #121212;
+    --navegation-color: #333333;
   }
