@@ -24,7 +24,7 @@ input[type="checkbox"] {
   position: absolute;
   top: 2px;
   right: 2px;
-  background: #053A6B;
+  background: #053a6b;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -33,9 +33,8 @@ input[type="checkbox"] {
 }
 
 #darkmode:checked + main header .check:before {
-    transform: translateX(0px);
-  }
-
+  transform: translateX(0px);
+}
 
 .check::after {
   content: "";
@@ -55,5 +54,5 @@ input[type="checkbox"] {
 }
 
 #darkmode:checked + main {
-    --background-color: #121212;
-  }
+  --background-color: #121212;
+}
