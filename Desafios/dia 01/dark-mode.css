@@ -3,7 +3,6 @@ label {
 }
 
 input[type="checkbox"] {
-  -webkit-appearance: none;
   visibility: hidden;
   display: none;
 }
@@ -13,7 +12,7 @@ input[type="checkbox"] {
   display: block;
   width: 40px;
   height: 20px;
-  background: #fff;
+  background: #e1e1e1;
   cursor: pointer;
   border-radius: 20px;
   overflow: hidden;
@@ -25,7 +24,7 @@ input[type="checkbox"] {
   position: absolute;
   top: 2px;
   right: 2px;
-  background: #000000;
+  background: #053A6B;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -43,7 +42,6 @@ input[type="checkbox"] {
   position: absolute;
   top: 2px;
   right: 2px;
-  background: #000000;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -52,10 +50,10 @@ input[type="checkbox"] {
 }
 
 #darkmode:checked + main header .check:after {
+  background: #333333;
   transform: translateX(0px);
 }
 
 #darkmode:checked + main {
     --background-color: #121212;
-    --navegation-color: #333333;
   }
