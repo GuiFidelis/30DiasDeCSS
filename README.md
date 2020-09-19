@@ -1,3 +1,22 @@
+<p align="center">	
+   <a href="https://www.linkedin.com/in/guifidelis/">
+      <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-6EC987?style=flat&logo=Linkedin&logoColor=white" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/guifidelis/">
+      <img alt="License" src="https://img.shields.io/badge/license-MIT-6EC987" />
+  </a>
+  
+</p>
+
+
+<p align="center">
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-regras-gerais">Regras Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sumário">Sumario</a>
+</p>
+
 ### 📖 Sobre 
 
 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
@@ -33,9 +52,11 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-✔️ <b>Desafio dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
-<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/dia%2001/img/resultado.gif"  width="500"></p>
+✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
+<p align="left"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/dia%2001/img/resultado.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="500"></p>
 
 --- 
 
+✔️ <b>Dia 02 - Ícone de mídia social em camadas. <a name="id01"></a></b>
+<p align="left"><img src="link" alt="Dia 02"  width="500"></p>
 
