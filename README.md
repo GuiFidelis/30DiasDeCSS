@@ -34,7 +34,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 --- 
 
 ✔️ <b>Desafio dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
-<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/dia%2001/img/desafio01.gif" width="500"></p>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/dia%2001/img/resultado.gif"  width="500"></p>
 
 --- 
 
