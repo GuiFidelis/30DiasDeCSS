@@ -1,7 +1,8 @@
 
 <p align="center">	
+      <a href="#">
       <img alt="Github logo" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/github_logo.png" height="100"/>
-  </a>  
+      </a>
 </p>
 
 <p align="center">	
