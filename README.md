@@ -1,7 +1,7 @@
 
 <p align="center">	
    <a href="https://github.com/MilenaCarecho">
-      <img alt="Github logo" src="https://github.com/GuiFidelis/imgs/blob/master/github_logo.png" width="80"/>
+      <img alt="Github logo" src="https://github.com/GuiFidelis/imgs/blob/master/github_logo.png" height="100"/>
   </a>  
 </p>
 
@@ -10,7 +10,7 @@
       <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-6EC987?style=flat&logo=Linkedin&logoColor=white" />
   </a>
   
-  <a href="https://www.linkedin.com/in/guifidelis/">
+  <a href="![GitHub](https://img.shields.io/github/license/guifidelis/30DiasDeCSS)">
       <img alt="License" src="https://img.shields.io/badge/license-MIT-6EC987" />
   </a>
   
