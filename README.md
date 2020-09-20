@@ -1,6 +1,6 @@
 
 <p align="center">	
-      <img alt="Github logo" src="https://github.com/GuiFidelis/imgs/blob/master/github_logo.png" height="100"/>
+      <img alt="Github logo" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/github_logo.png" height="100"/>
   </a>  
 </p>
 
