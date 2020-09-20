@@ -10,8 +10,8 @@
       <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-6EC987?style=flat&logo=Linkedin&logoColor=white" />
   </a>
   
-  <a href="![GitHub](https://img.shields.io/github/license/guifidelis/30DiasDeCSS)">
-      <img alt="License" src="https://img.shields.io/badge/license-MIT-6EC987" />
+  <a href="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/LICENSE">
+      <img alt="LICENCE MIT" src="https://img.shields.io/github/license/guifidelis/30DiasDeCSS" />
   </a>
   
 </p>
