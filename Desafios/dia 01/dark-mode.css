@@ -12,7 +12,7 @@ input[type="checkbox"] {
   display: block;
   width: 40px;
   height: 20px;
-  background: #e1e1e1;
+  background: var(--btn-background);
   cursor: pointer;
   border-radius: 20px;
   overflow: hidden;
@@ -24,7 +24,7 @@ input[type="checkbox"] {
   position: absolute;
   top: 2px;
   right: 2px;
-  background: #053a6b;
+  background: var(--btn-light);
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -49,7 +49,7 @@ input[type="checkbox"] {
 }
 
 #darkmode:checked + main header .check:after {
-  background: #333333;
+  background: var(--btn-dark);
   transform: translateX(0px);
 }
 

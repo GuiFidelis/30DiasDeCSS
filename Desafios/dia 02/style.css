@@ -10,32 +10,48 @@ body {
   transform: translate(-50%, -50%);
 }
 .ring {
-  width: 300px;
-  height: 300px;
+  width: 40vw;
+  height: 40vw;
   border-radius: 50%;
   box-shadow: 0 3px 0 #21c6f0;
   background: transparent;
   animation: animate 5s linear infinite;
 }
 .text {
-  width: 300px;
-  height: 300px;
+  width: 40vw;
+  height: 40vw;
   border-radius: 50%;
   color: #21c6f0;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  line-height: 300px;
-  font-size: 2em;
+  line-height: 40vw;
+  font-size: 4.5vw;
   background: transparent;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
+
 @keyframes animate {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 800px) {
+  .ring {
+    height: 300px;
+    width: 300px;
+  }
+
+  .text {
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    font-size: 2em;
   }
 }

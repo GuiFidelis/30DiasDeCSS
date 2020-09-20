@@ -1,5 +1,14 @@
 :root {
   --background-color: #ffffff;
+  --socialmedia-colorface: #3b5999;
+  --socialmedia-colortwitter: #55acee;
+  --socialmedia-colortwitch: #800080;
+  --socialmedia-coloryoutube: #ff0000;
+  --socialmedia-colorreddit: #ff4500;
+  --socialmedia-coloricon: #fff;
+  --btn-background: #e1e1e1;
+  --btn-light: #053a6b;
+  --btn-dark: #333333;
 }
 
 body {
@@ -53,7 +62,7 @@ ul li span {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: var(--socialmedia-coloricon);
   font-size: 4vw !important;
 }
 
@@ -87,23 +96,23 @@ ul li:hover span:nth-child(1) {
 }
 
 ul li:nth-child(1) span {
-  background: #3b5999;
+  background: var(--socialmedia-colorface);
 }
 
 ul li:nth-child(2) span {
-  background: #55acee;
+  background: var(--socialmedia-colortwitter);
 }
 
 ul li:nth-child(3) span {
-  background: purple;
+  background: var(--socialmedia-colortwitch);
 }
 
 ul li:nth-child(4) span {
-  background: red;
+  background: var(--socialmedia-coloryoutube);
 }
 
 ul li:nth-child(5) span {
-  background: orangered;
+  background: var(--socialmedia-colorreddit);
 }
 
 @media (min-width: 800px) {
