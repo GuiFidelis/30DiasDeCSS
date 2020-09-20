@@ -1,7 +1,8 @@
 
 <p align="center">	
-      <img alt="Github logo" src="https://github.com/GuiFidelis/imgs/blob/master/github_logo.png" height="100"/>
-  </a>  
+      <a href="#">
+      <img alt="Github logo" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/github_logo.png" height="100"/>
+      </a>
 </p>
 
 <p align="center">	
@@ -23,7 +24,8 @@
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-regras-gerais">Regras Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sumário">Sumario</a>
+  <a href="#-sumário">Sumário</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desafios">Desafios</a>
 </p>
 
 ### 📖 Sobre 
@@ -43,7 +45,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### 📖 Regras gerais
+### 📚 Regras gerais
 
 * Realizar um projeto por dia
 * Compartilhar seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
@@ -51,7 +53,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### 📖 Sumário
+### 📑 Sumário
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 
@@ -62,10 +64,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 --- 
 
 ✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
-<p align="left"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/dia%2001/img/resultado.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="500"></p>
+<p align="left"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="500"></p>
 
 --- 
 
-✔️ <b>Dia 02 - Ícone de mídia social em camadas. <a name="id01"></a></b>
+✔️ <b>Dia 02 - Ícone de mídia social em camadas. <a name="id02"></a></b>
 <p align="left"><img src="link" alt="Dia 02"  width="500"></p>
 
