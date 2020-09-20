@@ -1,3 +1,10 @@
+
+<p align="center">	
+   <a href="https://github.com/MilenaCarecho">
+      <img alt="Github logo" src="https://github.com/GuiFidelis/imgs/blob/master/github_logo.png" width="80"/>
+  </a>  
+</p>
+
 <p align="center">	
    <a href="https://www.linkedin.com/in/guifidelis/">
       <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-6EC987?style=flat&logo=Linkedin&logoColor=white" />
