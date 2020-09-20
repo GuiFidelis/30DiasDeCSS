@@ -7,15 +7,18 @@
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/guifidelis/">
-      <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-6EC987?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Guilherme Fidelis" src="https://img.shields.io/badge/-Guilherme Fidelis-0077B5?style=flat&logo=Linkedin&logoColor=white" />
+  </a>
+  
+  <a href="https://github.com/MilenaCarecho/30diasDeCSS">
+      <img alt="Github Milena Carecho" src="https://img.shields.io/badge/Made%20by-Milena Carecho-6f92ac?style=flat" />
   </a>
   
   <a href="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/LICENSE">
-      <img alt="LICENCE MIT" src="https://img.shields.io/github/license/guifidelis/30DiasDeCSS" />
+      <img alt="MIT Licence" src="https://img.shields.io/badge/Licence-MIT-6f92ac?style=flat" />
   </a>
   
 </p>
-
 
 <p align="center">
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
