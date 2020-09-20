@@ -24,7 +24,8 @@
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-regras-gerais">Regras Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sumário">Sumário</a>
+  <a href="#-sumário">Sumário</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desafios">Desafios</a>
 </p>
 
 ### 📖 Sobre 
@@ -44,7 +45,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### 📖 Regras gerais
+### 📚 Regras gerais
 
 * Realizar um projeto por dia
 * Compartilhar seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
@@ -52,7 +53,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### 📖 Sumário
+### 📑 Sumário
 
 * [Dia 01 - Ícone de mídia social em camadas](#id01)
 
@@ -67,6 +68,6 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-✔️ <b>Dia 02 - Ícone de mídia social em camadas. <a name="id01"></a></b>
+✔️ <b>Dia 02 - Ícone de mídia social em camadas. <a name="id02"></a></b>
 <p align="left"><img src="link" alt="Dia 02"  width="500"></p>
 
