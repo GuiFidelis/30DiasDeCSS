@@ -60,7 +60,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [Dia 03 - Mudança de Cor de Texto Quando Entra em Outra Div](#id03)
 * [Dia 04 - Botão com Efeito](#id04)
 * [Dia 05 - Pulsar](#id05)
-* [Dia 06 - Efeito Lightning Text](#id06)
+* [Dia 06 - Efeito Lightning Texto](#id06)
 * [Dia 07 - Preloader Animado](#id07)
 
 --- 
