@@ -1,8 +1,16 @@
+:root{
+    --background-color: #333333;
+    --frame1-color: #5acfc0;
+    --frame2-color: #8d9aa0;
+    --frame3-color: #b85acf;
+    --frame4-color: #5c5acf;
+  }
+
 body
 {
     margin: 0;
     padding: 0;
-    background: #5f5f5f;
+    background: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +27,8 @@ span
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color:rgb(90, 207, 192);
+    margin: 15%;
+    background-color: var(--frame1-color);
     border-radius: 4px;
     animation: chase 2s linear infinite;
 
@@ -27,17 +36,17 @@ span
 span:nth-child(2)
 {
     animation-delay: 0.5s;
-    background-color:rgb(90, 170, 207);
+    background-color: var(--frame2-color);
 }
 span:nth-child(1)
 {
     animation-delay: 1.5s;
-    background-color:rgb(184, 90, 207);
+    background-color:var(--frame3-color)
 }
 span:nth-child(3)
 {
     animation-delay: 1s;
-    background-color:rgb(92, 90, 207);
+    background-color:var(--frame4-color)
 }
 
 
@@ -45,19 +54,11 @@ span:nth-child(3)
 {
     0% {top: 0; left: 0;}
 
-    /* 12.5% { top: 0; left: 50%;} */
-
     25% { top: 0; left: 50%;}
-
-    /* 37.5% { top: 50%; left: 50%;} */
 
     50% { top: 50%; left: 50%;}
 
-    /* 62.5% { top: 50% ; left: 0;} */
-
     75% { top: 50% ; left: 0;}
-
-    /* 82.5% { top: 0; left: 0;} */
 
     100% { top: 0; left: 0;}
 }

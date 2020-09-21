@@ -1,3 +1,7 @@
+:root {
+  --loading-color: #21c6f0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +17,7 @@ body {
   width: 40vw;
   height: 40vw;
   border-radius: 50%;
-  box-shadow: 0 3px 0 #21c6f0;
+  box-shadow: 0 3px 0 var(--loading-color);
   background: transparent;
   animation: animate 5s linear infinite;
 }
@@ -21,7 +25,7 @@ body {
   width: 40vw;
   height: 40vw;
   border-radius: 50%;
-  color: #21c6f0;
+  color: var(--loading-color);
   position: absolute;
   top: 0;
   left: 0;
