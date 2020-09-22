@@ -1,3 +1,8 @@
+:root{
+	--background-color: #000;
+	--text-color: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,13 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000;
+    background: var(--background-color);
 }
 
 h2{
-    color: #fff;
+    color: var(--text-color);
     font-family: sans-serif;
-    font-size: 15em;
+    font-size: min(150px, 20vw);
     animation: animate 0.5s linear infinite;
 }
 
