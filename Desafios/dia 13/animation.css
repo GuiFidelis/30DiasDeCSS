@@ -1,0 +1,110 @@
+.row:nth-child(1){
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.row:nth-child(2) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.row:nth-child(3) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(4) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(5) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(6) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(7) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(8) {
+  opacity: 0;
+  animation: type 1s steps(40, end);
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+.row:nth-child(9) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(10) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(11) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(12) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(13) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(14) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(15) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+  }
+.row:nth-child(16) {
+    opacity: 0;
+    animation: type 1s steps(40, end);
+    animation-delay: 16s;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes type {
+     0% {
+    height:  0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
