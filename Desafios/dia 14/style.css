@@ -1,0 +1,126 @@
+:root {
+  --background-color: #333333;
+  --text-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+  background: var(--background-color);
+}
+
+.animated-text {
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: inherit;
+  padding: 0 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.line {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.line:first-child {
+  animation: anim 5s infinite;
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  16% {
+    margin-top: -40px;
+  }
+  33% {
+    margin-top: -80px;
+  }
+  50% {
+    margin-top: -120px;
+  }
+  66% {
+    margin-top: -80px;
+  }
+  82% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 400px) {
+  .animated-text {
+    padding: 0 40px;
+    height: 60px;
+  }
+  .line {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  @keyframes anim {
+    0% {
+      margin-top: 0;
+    }
+    16% {
+      margin-top: -60px;
+    }
+    33% {
+      margin-top: -120px;
+    }
+    50% {
+      margin-top: -180px;
+    }
+    66% {
+      margin-top: -120px;
+    }
+    82% {
+      margin-top: -60px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .animated-text {
+    padding: 0 80px;
+    height: 100px;
+  }
+  .line {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  @keyframes anim {
+    0% {
+      margin-top: 0;
+    }
+    16% {
+      margin-top: -100px;
+    }
+    33% {
+      margin-top: -200px;
+    }
+    50% {
+      margin-top: -300px;
+    }
+    66% {
+      margin-top: -200px;
+    }
+    82% {
+      margin-top: -100px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
