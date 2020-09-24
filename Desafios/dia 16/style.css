@@ -1,0 +1,63 @@
+:root {
+  --background-color: #333333;
+  --border-color: #21c6f0;
+  --text-color: #fff;
+  --shadow-color:#262626;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: var(--background-color);
+}
+
+p {
+  color: var(--text-color);
+  text-shadow: 0 7px 10px var(--shadow-color);
+  font-size: 40px;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+p:before,
+p:after {
+  content: "";
+  padding: 0.9em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 6px solid var(--border-color);
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: tipsy 10s infinite alternate ease-in-out;
+}
+
+p:before {
+  border-color: var(--border-color) var(--border-color) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+p:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) var(--border-color) var(--border-color);
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
+}
+
+@keyframes tipsy {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
