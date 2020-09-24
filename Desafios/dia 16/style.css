@@ -2,7 +2,7 @@
   --background-color: #333333;
   --border-color: #21c6f0;
   --text-color: #fff;
-  --shadow-color:#262626;
+  --shadow-color: #262626;
 }
 
 * {
@@ -44,12 +44,14 @@ p:after {
 }
 
 p:before {
-  border-color: var(--border-color) var(--border-color) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: var(--border-color) var(--border-color) rgba(0, 0, 0, 0)
+    rgba(0, 0, 0, 0);
   z-index: -1;
 }
 
 p:after {
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) var(--border-color) var(--border-color);
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) var(--border-color)
+    var(--border-color);
   box-shadow: 25px 25px 25px rgba(46, 46, 49, 0.8);
 }
 
