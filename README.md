@@ -71,6 +71,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [Dia 14 - Texto Animado](#id14)
 * [Dia 15 - Loading](#id15)
 * [Dia 16 - Borda com Efeito](#id16)
+* [Dia 17 - Efeito Holoforte](#id17)
 
 --- 
 
@@ -155,4 +156,9 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ✔️ <b>Dia 16 - Borda com Efeito. <a name="id16"></a></b>
 <p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio16.gif" alt="Dia 16 - Borda com Efeito"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 17 - Efeito Holoforte. <a name="id17"></a></b>
+<p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio17.gif" alt="Dia 17 - Efeito Holoforte"  width="700"></p>
 
