@@ -1,7 +1,12 @@
+:root {
+    --background-color: #333333;
+    --ghost-color: #fff;
+    --ghost-datails: #333333;
+  }
 body{
     margin:0;
     padding:0;
-    background-color: #2c3a47;
+    background-color: var(--background-color);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,7 +16,7 @@ body{
 .ghost {
     width: 140px;
     height: 160px;
-    background-color: #f2f2f2;
+    background-color: var(--ghost-color);
     border-radius: 70px 70px 0 0;
     position: relative;
     cursor: pointer;
@@ -42,7 +47,7 @@ body{
 .eyes span{
     width: 24px;
     height: 24px;
-    background-color: #2c3a47;
+    background-color: var(--ghost-datails);
     border-radius: 50%;
     transition: .3s linear;
 }
@@ -54,7 +59,7 @@ body{
 .mouth{
     width: 40px;
     height: 20px;
-    background-color: #2c3a47;
+    background-color: var(--ghost-datails);
     margin: auto;
     border-radius: 0 0 20px 20px;
     transition: .3s linear;
@@ -76,7 +81,7 @@ body{
 .hands span{
     width: 20px;
     height: 30px;
-    background-color: #f2f2f2;
+    background-color: var(--ghost-color);
 }
 
 .hands span:first-child{
@@ -97,7 +102,7 @@ body{
 .feet span{
     flex: 1;
     height: 20px;
-    background-color: #f2f2f2;
+    background-color: var(--ghost-color);
     border-radius: 0 0 20px 20px;
 }
 
