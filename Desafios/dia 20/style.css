@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #333333;
   margin: 0;
   display: flex;
   align-items: center;
@@ -28,7 +29,7 @@ ul li {
 
 @keyframes loading {
   0% {
-    color: red;
+    color: rgb(30, 150, 0);
     transform: translateX(-50px);
     letter-spacing: 20px;
     opacity: 0;
@@ -41,7 +42,7 @@ ul li {
     opacity: 1;
   }
   100% {
-    color: blue;
+    color: rgb(10, 164, 211);
     transform: translateX(50px);
     letter-spacing: 20px;
     opacity: 0;
