@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Teko', sans-serif;
+    background: #000;
+  }
+  
+ span {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2vmin;
+  }
+  
+  p {
+    position: relative;
+    text-align: center;
+    font-size: 8vmin;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: .8;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    
+    100% {
+      background-position-x: 500%;
+    }
+  }
