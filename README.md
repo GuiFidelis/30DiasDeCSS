@@ -70,34 +70,34 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 --- 
 
 ✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
-<p align="left"><img alt="Ícone de mídia social em camadas" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="500"></p>
+<p align="center"><img alt="Ícone de mídia social em camadas" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 02 - Loader Animado. <a name="id02"></a></b>
-<p align="left"><img alt="Loader Animado" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio02.gif" alt="Dia 02 - Loader Animado"  width="500"></p>
+<p align="center"><img alt="Loader Animado" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio02.gif" alt="Dia 02 - Loader Animado"  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 03 - Mudança de Cor de Texto Quando Entra em Outra Div. <a name="id03"></a></b>
-<p align="left"><img alt="Mudança de Cor de Texto Quando Entra em Outra Div" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio03.gif" alt="Dia 03 - Mudança de Cor de Texto Quando Entra em Outra Div"  width="500"></p>
+<p align="center"><img alt="Mudança de Cor de Texto Quando Entra em Outra Div" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio03.gif" alt="Dia 03 - Mudança de Cor de Texto Quando Entra em Outra Div"  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 04 - Botão com Efeito. <a name="id04"></a></b>
-<p align="left"><img alt="Botão com Efeito" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio04.gif" alt="Dia 04 - Botão com Efeito"  width="500"></p>
+<p align="center"><img alt="Botão com Efeito" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio04.gif" alt="Dia 04 - Botão com Efeito"  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 05 - Pulsar. <a name="id05"></a></b>
-<p align="left"><img alt="Pulsar" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio05.gif" alt="Dia 05 - Pulsar"  width="500"></p>
+<p align="center"><img alt="Pulsar" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio05.gif" alt="Dia 05 - Pulsar"  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 06 - Efeito Lightning Texto. <a name="id06"></a></b>
-<p align="left"><img alt="Efeito Lightning Texto" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio06.gif" alt="Dia 06 - Efeito Lightning Texto"  width="500"></p>
+<p align="center"><img alt="Efeito Lightning Texto" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio06.gif" alt="Dia 06 - Efeito Lightning Texto"  width="700"></p>
 
 --- 
 
 ✔️ <b>Dia 07 - Preloader Animado. <a name="id07"></a></b>
-<p align="left"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio07.gif" alt="Dia 07 - Preloader Animado"  width="500"></p>
+<p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio07.gif" alt="Dia 07 - Preloader Animado"  width="700"></p>
