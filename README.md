@@ -69,6 +69,8 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [Dia 12 - Fantasma](#id12)
 * [Dia 13 - Super Mario](#id13)
 * [Dia 14 - Texto Animado](#id14)
+* [Dia 15 - Loading](#id15)
+* [Dia 16 - Borda com Efeito](#id16)
 
 --- 
 
@@ -143,3 +145,14 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ✔️ <b>Dia 14 - Texto Animado. <a name="id14"></a></b>
 <p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio14.gif" alt="Dia 14 - Texto Animado"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 15 - Loading. <a name="id15"></a></b>
+<p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio15.gif" alt="Dia 15 - Loading"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 16 - Borda com Efeito. <a name="id16"></a></b>
+<p align="center"><img alt="Preloader Animad" src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio16.gif" alt="Dia 16 - Borda com Efeito"  width="700"></p>
+
