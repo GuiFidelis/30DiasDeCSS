@@ -55,6 +55,18 @@ body {
 	transform-origin: 100% 100%;
 }
 
+.radar:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #ffffff;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    mix-blend-mode: overlay;
+    border-radius: 50%;
+}
+
 @keyframes scaning {
 	to {
 		transform: rotate(360deg);
