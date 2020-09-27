@@ -215,4 +215,4 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 --- 
 
 ✔️ <b>Dia 26 - Gatinho. <a name="id26"></a></b>
-<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio26.gif" alt="Dia 26 - Gatinho  width="700"></p>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio26.gif" alt="Dia 26 - Gatinho"  width="700"></p>
