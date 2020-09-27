@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: radial-gradient(circle at center, rgb(5, 2, 48), black);
+}
+
+.radar {
+	width: calc(8em + 1.5em);
+	height: calc(8em + 1.5em);
+	font-size: 28px;
+	position: relative;
+	background: 
+		linear-gradient(
+			90deg,
+			transparent 49.75%,
+			rgb(13, 0, 100) 49.75%,
+			rgb(0, 2, 100) 50.25%,
+			transparent 50.25%),
+		linear-gradient(
+			transparent 49.75%,
+			rgb(7, 0, 100) 49.75%,
+			rgb(10, 0, 100) 50.25%,
+			transparent 50.25%),
+		repeating-radial-gradient(
+			transparent 0, 
+			transparent 0.95em, 
+			rgb(5, 0, 100) 0.95em, 
+			rgb(0, 3, 100) 1em),
+		linear-gradient(black, black);
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px 3px rgba(80, 247, 230, 0.508),
+	0px 0px 100px 10px rgba(27, 9, 182, 0.577),
+	0px 0px 200px 10px rgba(9, 49, 182, 0.542);
+}
+
+.radar::before {
+	content: '';
+	position: absolute;
+	width: calc(8em / 2);
+	height: calc(8em / 2);
+	top: calc(1.5em / 2);
+	left: calc(1.5em / 2);
+	/*border: 1px solid white;*/
+	background: linear-gradient(
+			45deg,
+			rgba(0, 0, 0, 0) 50%,
+			rgb(0, 6, 192) 100%
+		);
+	border-radius: 100% 0 0 0;
+	animation: 
+      scaning 5s linear infinite;
+	transform-origin: 100% 100%;
+}
+
+@keyframes scaning {
+	to {
+		transform: rotate(360deg);
+	}
+}
