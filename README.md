@@ -72,10 +72,15 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [Dia 15 - Loading](#id15)
 * [Dia 16 - Borda com Efeito](#id16)
 * [Dia 17 - Efeito Holoforte](#id17)
-* [Dia 18 - Botão com Efeito](#id17)
-* [Dia 19 - Botão Ligar/Desligar](#id17)
-* [Dia 20 - Loading](#id17)
-* [Dia 21 - Efeito 3D](#id17)
+* [Dia 18 - Botão com Efeito](#id18)
+* [Dia 19 - Botão Ligar/Desligar](#id19)
+* [Dia 20 - Loading](#id20)
+* [Dia 21 - Efeito 3D](#id21)
+* [Dia 22 - Loader](#id22)
+* [Dia 23 - Lua com Espaçonave](#id23)
+* [Dia 24 - Radar](#id24)
+* [Dia 25 - Cartões](#id25)
+* [Dia 26 - Gatinho](#id26)
 
 --- 
 
@@ -168,20 +173,46 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-✔️ <b>Dia 18 - Botão com Efeito. <a name="id17"></a></b>
+✔️ <b>Dia 18 - Botão com Efeito. <a name="id18"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio18.gif" alt="Dia 18 - Botão com Efeito"  width="700"></p>
 
 --- 
 
-✔️ <b>Dia 19 - Botão Ligar/Desligar. <a name="id17"></a></b>
+✔️ <b>Dia 19 - Botão Ligar/Desligar. <a name="id19"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio19.gif" alt="Dia 19 - Botão Ligar/Desligar"  width="700"></p>
 
 --- 
 
-✔️ <b>Dia 20 - Loading. <a name="id17"></a></b>
+✔️ <b>Dia 20 - Loading. <a name="id20"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio20.gif" alt="DDia 20 - Loading"  width="700"></p>
 
 --- 
 
-✔️ <b>Dia 21 - Efeito 3D. <a name="id17"></a></b>
+✔️ <b>Dia 21 - Efeito 3D. <a name="id21"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio21.gif" alt="Dia 21 - Efeito 3D"  width="700"></p>
+
+
+--- 
+
+✔️ <b>Dia 22 - Loader. <a name="id22"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio22.gif" alt="Dia 22 - Loader"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 23 - Lua com Espaçonave. <a name="id23"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio23.gif" alt="Dia 23 - Lua com Espaçonave"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 24 - Radar. <a name="id24"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio24.gif" alt="Dia 24 - Radar"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 25 - Cartões <a name="id25"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio25.gif" alt="Dia 25 - Cartões"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 26 - Gatinho. <a name="id26"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio26.gif" alt="Dia 26 - Gatinho"  width="700"></p>
