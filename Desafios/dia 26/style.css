@@ -1,185 +1,214 @@
+:root {
+  --background-color: #161616;
+  --cat-color: #161616;
+  --cat-color-secondary: #fff;
+  --eyes-color: #161616;
+  --eyes-color-secondary: #fff;
+  --muzzle-color: #fff;
+}
+
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #161616;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-color);
 }
 
+/* Tamanho do Rosto (box)*/
 .cat {
-    position: relative;
-    height: 170px;
-    width: 192.1px;
+  position: relative;
+  height: min(180px, 40vw);
+  width: min(191px, 41vw);
 }
+
+/* Tamanho do Rosto (dentro do box)*/
+.rosto {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--cat-color);
+  border-radius: 50%;
+}
+
+/* Orelhas */
 .ear {
-    position: absolute;
-    top: -30%;
-    height: 60%;
-    width: 25%;
-    background: #fff;
+  position: absolute;
+  top: -30%;
+  height: 60%;
+  width: 25%;
+  background: var(--cat-color-secondary);
 }
-.ear::before, .ear::after {
-    content: '';
-    position: absolute;
-    bottom: 24%;
-    height: 10%;
-    width: 5%;
-    border-radius: 50%;
-    background: #161616;
+
+.ear--left {
+  left: -7%;
+  border-radius: 70% 30% 0% 0% / 100% 100% 0% 0%;
+  transform: rotate(-15deg);
+}
+
+.ear--right {
+  right: -7%;
+  border-radius: 30% 70% 0% 0% / 100% 100% 0% 0%;
+  transform: rotate(15deg);
+}
+
+/* Pêlos da Orelhas */
+.ear::before,
+.ear::after {
+  content: "";
+  position: absolute;
+  bottom: 24%;
+  height: 10%;
+  width: 5%;
+  border-radius: 50%;
+  background: var(--cat-color);
 }
 .ear::after {
-    transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
 }
-.ear--left {
-    left: -7%;
-    border-radius: 70% 30% 0% 0% / 100% 100% 0% 0%;
-    transform: rotate(-15deg);
-}
-.ear--left::before, .ear--left::after {
-    right: 10%;
+
+.ear--left::before,
+.ear--left::after {
+  right: 10%;
 }
 .ear--left::after {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-.ear--right {
-    right: -7%;
-    border-radius: 30% 70% 0% 0% / 100% 100% 0% 0%;
-    transform: rotate(15deg);
-}
-.ear--right::before, .ear--right::after {
-    left: 10%;
+
+.ear--right::before,
+.ear--right::after {
+  left: 10%;
 }
 .ear--right::after {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
-.face {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #161616;
-    border-radius: 50%;
-}
+
+/* Olhos */
 .eye {
-    position: absolute;
-    top: 35%;
-    height: 30%;
-    width: 31%;
-    background: #fff;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  top: 35%;
+  height: 30%;
+  width: 31%;
+  background: var(--eyes-color-secondary);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
-.eye::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    border-radius: 0 0 50% 50Array/0Array 0 40% 40%;
-    background: #161616;
-    animation: blink 4s infinite ease-in;
-}
-@keyframes blink {
-    0% {
-        height: 0;
-   }
-    90% {
-        height: 0;
-   }
-    92.5% {
-        height: 100%;
-   }
-    95% {
-        height: 0;
-   }
-    97.5% {
-        height: 100%;
-   }
-    100% {
-        height: 0;
-   }
-}
-.eye::before {
-    content: '';
-    position: absolute;
-    top: 60%;
-    height: 10%;
-    width: 15%;
-    background: #fff;
-    border-radius: 50%;
-}
+
 .eye--left {
-    left: 0;
+  left: 0;
 }
-.eye--left::before {
-    right: -5%;
-}
+
 .eye--right {
-    right: 0;
+  right: 0;
 }
+
+/* Pálpebras */
+.eye::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-radius: 0 0 50% 50;
+  background: var(--eyes-color);
+  animation: piscar 4s infinite ease-in;
+}
+
+@keyframes piscar {
+  0% {
+    height: 0;
+  }
+  90% {
+    height: 0;
+  }
+  92.5% {
+    height: 100%;
+  }
+  95% {
+    height: 0;
+  }
+  97.5% {
+    height: 100%;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+/* Carúncula Lacrimal */
+.eye::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  height: 10%;
+  width: 15%;
+  background: var(--eyes-color-secondary);
+  border-radius: 50%;
+}
+
+.eye--left::before {
+  right: -5%;
+}
+
 .eye--right::before {
-    left: -5%;
+  left: -5%;
 }
+
+/* Pupila */
 .eye-pupil {
-    position: absolute;
-    top: 25%;
-    height: 50%;
-    width: 20%;
-    background: #161616;
-    border-radius: 50%;
-    animation: look-around 4s infinite;
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 20%;
+  background: var(--eyes-color);
+  border-radius: 50%;
+  animation: olhar 4s infinite;
 }
-@keyframes look-around {
-    0% {
-        transform: translate(0);
-   }
-    5% {
-        transform: translate(50%, -25%);
-   }
-    10% {
-        transform: translate(50%, -25%);
-   }
-    15% {
-        transform: translate(-100%, -25%);
-   }
-    20% {
-        transform: translate(-100%, -25%);
-   }
-    25% {
-        transform: translate(0, 0);
-   }
-    100% {
-        transform: translate(0, 0);
-   }
+@keyframes olhar {
+  0% {
+    transform: translate(0);
+  }
+  5% {
+    transform: translate(50%, -25%);
+  }
+  10% {
+    transform: translate(50%, -25%);
+  }
+  15% {
+    transform: translate(-100%, -25%);
+  }
+  20% {
+    transform: translate(-100%, -25%);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
+
 .eye--left .eye-pupil {
-    right: 30%;
+  right: 30%;
 }
 .eye--right .eye-pupil {
-    left: 30%;
+  left: 30%;
 }
-.eye-pupil::after {
-    content: '';
-    position: absolute;
-    top: 30%;
-    right: -5%;
-    height: 20%;
-    width: 35%;
-    border-radius: 50%;
-    background: #fff;
-}
+
+/* Focinho */
 .muzzle {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    height: 6%;
-    width: 10%;
-    background: #fff;
-    transform: translateX(-50%);
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 6%;
+  width: 10%;
+  background: var(--muzzle-color);
+  transform: translateX(-50%);
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
 }

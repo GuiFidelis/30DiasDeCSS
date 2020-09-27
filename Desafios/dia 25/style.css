@@ -1,141 +1,157 @@
+:root {
+  --background-color: #161616;
+  --card-background-color: #2a2b2f;
+  --facebook-color: #2196f3;
+  --facebook-color-light: #2196f3;
+  --youtube-color: #ff3838;
+  --youtube-color-light: #ff3838;
+  --twitch-color: #a547dc;
+  --twitch-color-light: #a547dc;
+  --hard-shadow: #000;
+  --text-color-primary: #d0d0d0;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    background: #232427;
-  }
-   
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-.container .card{
-    position: relative;
-    min-width: 320px;
-    height: 440px;
-    border-radius: 15px;
-    margin: 30px;
-  }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-color);
+}
 
-  .container .card .box{
-      opacity: 0.2;
-    filter:grayscale(1);
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    background: #2a2b2f;
-    border: 2px solid #1e1f23;
-    border-radius: 15px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-    transition: 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  .container .card .box h3{
-    margin-top: 10px;
-   }
+/* Box que Contém as Cartas */
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .container .card .box p{
-   margin-top: 20px;
-  }
+/* Cartas */
+.container .card {
+  position: relative;
+  filter: grayscale(1);
+  opacity: 0.2;
+  width: 300px;
+  height: 450px;
+  background: var(--card-background-color);
+  border-radius: 20px;
+  margin: 20px 25px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 10px var(--hard-shadow);
+  overflow: hidden;
+  transition: 0.5s;
+}
 
-  .container .card .box a{
-    margin-top: 20px;
-   }
+/* Efeito Espelhado das Cartas */
+.container .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.07);
+}
 
-  .container .card .box::before{
-    
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgba(255,255,255,0.05);
-    pointer-events: none;
-  }
- 
-  .container .card .box:hover{
-    opacity: 1;
-    filter: blur(0);
-    filter:grayscale(0);
-    transform: translateY(-50px);
-    box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  }
+/* Movimento das Cartas */
+.container .card:hover {
+  opacity: 1;
+  filter: grayscale(0);
+  transform: translateY(-50px);
+}
 
+.container .card:nth-child(1):hover {
+  border: 1px solid #2196f3;
+  box-shadow: 0px 0px 10px 0px var(--facebook-color-light),
+    0px 50px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
 
-  .container .card .box .content{
-    padding: 20px;
-    text-align: center;
-  }
+.container .card:nth-child(2):hover {
+  border: 1px solid #ff3838;
+  box-shadow: 0px 0px 10px 0px var(--youtube-color-light),
+    0px 50px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
 
-  
-  .container .card .box .content h2{
-    /* position: absolute; */
-    top: 10px;
-    right: 50%;
-    font-size: 6em;
-    color: rgba(255,255,255,0.05);
-  }
+.container .card:nth-child(3):hover {
+  border: 1px solid #a547dc;
+  box-shadow: 0px 0px 10px 0px var(--twitch-color-light),
+    0px 50px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
 
-  
-  .container .card .box .content h3{
-    font-size: 1.8em;
-    color: rgba(255,255,255,0.5);
-    z-index: 1;
-    transition: 0.5s;
-  }
-  .container .card .box .content p{
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.5);
-    z-index: 1;
-    transition: 0.5s;
-  }
-  .container .card .box .content a{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    background: #000;
-    margin-top: 15px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  }
-  .container .card:nth-child(1) .box .content a{
-    background: #2196f3;
-  }
-  .container .card:nth-child(2) .box .content a{
-    background: #e91e63;
-  }
-  .container .card:nth-child(3) .box .content a{
-    background: #a547dc;
-  }
-  .container .card:nth-child(1) .box .content h2{
-    color: #2196f3;
-  }
-  .container .card:nth-child(2) .box .content h2{
-    color: #e91e63;
-  }
-  .container .card:nth-child(3) .box .content h2{
-    color: #a547dc;
-  }
+/* Edição Elementos Internos */
+.container .card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .content h2 {
+  top: 10px;
+  right: 50%;
+  font-size: 6em;
+  color: var(--hard-shadow);
+}
+
+.container .card .content h3 {
+  margin-top: 10px;
+  font-size: 1.8em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container .card .content p {
+  height: 150px;
+  font-size: 1em;
+  margin: 20px 15px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5em;
+}
+
+.container .card .content a {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--text-color-primary);
+  font-weight: 400;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Colorindo Icones e Botões */
+.container .card:nth-child(1) .content a {
+  background: var(--facebook-color);
+}
+
+.container .card:nth-child(2) .content a {
+  background: var(--youtube-color);
+}
+
+.container .card:nth-child(3) .content a {
+  background: var(--twitch-color);
+}
+
+.container .card:nth-child(1) .content h2 {
+  color: var(--facebook-color);
+}
+
+.container .card:nth-child(2) .content h2 {
+  color: var(--youtube-color);
+}
+
+.container .card:nth-child(3) .content h2 {
+  color: var(--twitch-color);
+}
