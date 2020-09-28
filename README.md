@@ -25,7 +25,9 @@
   <a href="#-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-regras-gerais">Regras Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sumário">Sumário</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-desafios">Desafios</a>
+  <a href="#-desafios">Desafios</a><br><br>
+  <a href="#%EF%B8%8F-referências">Referências</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>    
 </p>
 
 ### 📖 Sobre 
@@ -216,7 +218,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-✔️ <b>Dia 25 - Cartões <a name="id25"></a></b>
+✔️ <b>Dia 25 - Cartões. <a name="id25"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio25.gif" alt="Dia 25 - Cartões"  width="700"></p>
 
 --- 
