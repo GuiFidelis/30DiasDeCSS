@@ -93,13 +93,6 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="700"></p>
 
-* Descrição
-
-##### O que estudar para criar este efeito:
-
-*
-*
-*
 --- 
 
 ✔️ <b>Dia 02 - Loader Animado. <a name="id02"></a></b>
