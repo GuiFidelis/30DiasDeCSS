@@ -1,0 +1,66 @@
+:root {
+  --background-color: #161616;
+  --clock-color: #fff;
+  --pointer-color: #fff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clockAnimation.clock {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 0 10px var(--clock-color);
+  border-radius: 50%;
+}
+
+#clockAnimation .pont1,
+#clockAnimation .pont2 {
+  border-radius: 100px;
+  background-color: var(--pointer-color);
+  position: absolute;
+  top: calc(50% - (10px / 2));
+  left: 95px;
+}
+
+#clockAnimation .pont1 {
+  width: 80px;
+  height: 10px;
+}
+
+#clockAnimation .rotatePont {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+#clockAnimation .rotatePont.rot1 {
+  animation: rotatePont 2s linear infinite;
+}
+
+#clockAnimation .rotatePont.rot2 {
+  animation: rotatePont 10s linear infinite;
+}
+
+#clockAnimation .pont2 {
+  width: 50px;
+  height: 10px;
+  transform: rotate(-25%)
+  }
+
+@keyframes rotatePont {
+    to {
+    transform: rotate(360deg);
+  }
+}

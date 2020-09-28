@@ -1,0 +1,150 @@
+:root {
+  --background-color: #161616;
+  --emoji-face-color: #ffda6a;
+  --text-color: #e1e1e1;
+  --eyes-color: #000;
+  --mouth-color: #000;
+  --tongue-color: #f55064;
+  --hard-shadow-color: #000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--background-color);
+}
+
+/* Cara do Emoji */
+.emoji {
+  width: 120px;
+  height: 120px;
+  margin: 15px 15px 40px;
+  background: var(--emoji-face-color);
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Texto */
+.emoji--haha:after {
+    content: 'Haha';
+    position: absolute;
+    bottom: -50px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100px;
+    left: calc(50% - 50px);
+    color: var(--text-color);
+}
+
+/* Posição dos objetos internos da Face */
+.emoji_face, .emoji_eyes, .emoji_mouth, .emoji_tongue {
+    position: absolute;
+}
+
+/* Manter objetos dentro da face */
+.emoji_face {
+    width: inherit;
+    height: inherit;
+}
+
+/* Olhos */
+.emoji--haha .emoji_eyes {
+    width: 26px;
+    height: 6px;
+    border-radius: 2px;
+    left: calc(50% - 13px);
+    top: 35px;
+    transform: rotate(20deg);
+    background: transparent;
+    box-shadow: -25px 5px 0 0 var(--eyes-color), 25px -5px 0 0 var(--eyes-color);
+}
+
+.emoji--haha .emoji_eyes:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 6px;
+    border-radius: 2px;
+    transform: rotate(-40deg);
+    background: transparent;
+    box-shadow: -25px -5px 0 0 var(--eyes-color), 25px 5px 0 0 var(--eyes-color);
+}
+
+.emoji--haha .emoji_face {
+    animation: haha-face 2s linear infinite;
+}
+
+@keyframes haha-face {
+    10%, 30%, 50% {
+        transform: translateY(25px);
+   }
+    20%, 40% {
+        transform: translateY(15px);
+   }
+    60%, 80% {
+        transform: translateY(0);
+   }
+    70%, 90% {
+        transform: translateY(-10px);
+   }
+}
+
+/* Boca */
+.emoji--haha .emoji_mouth {
+    width: 80px;
+    height: 40px;
+    left: calc(50% - 40px);
+    top: 50%;
+    background: var(--mouth-color);
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+    z-index: 1;
+    animation: haha-mouth 2s linear infinite;
+}
+
+/* Língua */
+.emoji--haha .emoji_tongue {
+    width: 70px;
+    height: 30px;
+    background: var(--tongue-color);
+    left: calc(50% - 35px);
+    bottom: -10px;
+    border-radius: 50%;
+}
+
+/* Animação Boca */
+@keyframes haha-mouth {
+    10%, 30%, 50% {
+        transform: scale(0.6);
+        top: 45%;
+   }
+    20%, 40% {
+        transform: scale(0.8);
+        top: 45%;
+   }
+    60%, 80% {
+        transform: scale(1);
+        top: 50%;
+   }
+    70% {
+        transform: scale(1.2);
+        top: 50%;
+   }
+    90% {
+        transform: scale(1.1);
+        top: 50%;
+   }
+}
