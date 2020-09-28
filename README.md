@@ -91,6 +91,13 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="700"></p>
 
+* Descrição
+
+##### O que estudar para criar este efeito:
+
+*
+*
+*
 --- 
 
 ✔️ <b>Dia 02 - Loader Animado. <a name="id02"></a></b>
@@ -216,3 +223,22 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ✔️ <b>Dia 26 - Gatinho. <a name="id26"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio26.gif" alt="Dia 26 - Gatinho"  width="700"></p>
+
+--- 
+
+### ▶️ Referências 
+
+* [Codegrid](https://www.youtube.com/c/Codegrid)
+* [Coding Artist](https://www.youtube.com/channel/UC15exV5s79D_aYGADudlwpQ)
+* [Creative Creations](https://www.youtube.com/c/CreativeCreationsYT/videos)
+* [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+* [FreeFrontEnd](https://www.youtube.com/channel/UCGr_1whd05px8Jiksu_XVzQ)
+* [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+
+* [Codepen](https://codepen.io/)
+
+--- 
+
+### 📜 Licença
+
+> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
