@@ -32,9 +32,9 @@
 
 ### 📖 Sobre 
 
-30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
+CSS (Cascading Style Sheet) é o código usado para estilizar páginas da Web, é a primeira tecnologia que você deve aprender após o HTML. Enquanto o HTML é utilizado para definir a estrutura e semântica do seu conteúdo, o CSS é usado para estilizá-lo e desenhá-lo. Inicialmente é muito difícil escrever códigos e conseguir criar algo do zero sozinho, portanto é importante reproduzir outros projetos para entender seu funcionamento e seguir tutoriais para praticar e aumentar nosso conhecimento e habilidades. Neste sentido, o desafio "30 dias de CSS" tem o intuito de colaborar para por em prática as habilidades adquiridas e a oferecer a o oportunidade de aprender novas funcionalidades produzindo mini projetos diários utilizando HTML5 e CSS3.
 
-Aceitei o desafio dos 30 dias de CSS3 no dia 01 de Setembro de 2020 para melhorar minhas habilidades em HTML5 e CSS3 fazendo mini projetos. Conheci o desafio através da [@MilenaCarecho](https://github.com/MilenaCarecho/30diasDeCSS/issues/1), bora participar? :)
+Conheci o desafio através da [@MilenaCarecho](https://github.com/MilenaCarecho/30diasDeCSS/issues/1). Aceitei o desafio dos 30 dias de CSS3 no dia 01 de Setembro de 2020. Gostou? Para participar [Clique Aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1).
 
 --- 
 
@@ -96,6 +96,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ✔️ <b>Dia 01 - Ícone de mídia social em camadas. <a name="id01"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio01.gif" alt="Dia 01 - Ícone de mídia social em camadas."  width="700"></p>
+
 
 --- 
 
@@ -253,7 +254,6 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
 * [FreeFrontEnd](https://www.youtube.com/channel/UCGr_1whd05px8Jiksu_XVzQ)
 * [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
-
 * [Codepen](https://codepen.io/)
 
 --- 
