@@ -83,6 +83,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 * [Dia 24 - Radar](#id24)
 * [Dia 25 - Cartões](#id25)
 * [Dia 26 - Gatinho](#id26)
+* [Dia 27 - Relógio](#id27)
+* [Dia 28 - Emoji](#id28)
+* [Dia 29 - Eclipse](#id29)
+* [Dia 30 - Fogos](#id30)
 
 --- 
 
@@ -218,6 +222,26 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ✔️ <b>Dia 26 - Gatinho. <a name="id26"></a></b>
 <p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio26.gif" alt="Dia 26 - Gatinho"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 27 - Relógio. <a name="id27"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio27.gif" alt="Dia 27 - Relógio"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 28 - Emoji. <a name="id28"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio28.gif" alt="Dia 28 - Emoji"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 29 - Eclipse. <a name="id29"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio29.gif" alt="Dia 29 - Eclipse"  width="700"></p>
+
+--- 
+
+✔️ <b>Dia 30 - Fogos. <a name="id30"></a></b>
+<p align="center"><img src="https://github.com/GuiFidelis/30DiasDeCSS/blob/master/Desafios/img/desafio30.gif" alt="Dia 30 - Fogos"  width="700"></p>
 
 --- 
 
